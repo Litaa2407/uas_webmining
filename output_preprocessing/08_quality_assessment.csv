@@ -1,0 +1,13 @@
+Pemeriksaan,Status,Keterangan
+Jumlah provinsi,PASS,38 provinsi
+Jumlah fitur,PASS,9 fitur
+Struktur gap raw,PASS,"(38, 10)"
+Struktur gap robust,PASS,"(38, 10)"
+Missing values - Dataset utama,PASS,0 missing values
+Missing values - Gap raw,PASS,0 missing values
+Missing values - Gap robust,PASS,0 missing values
+Duplikasi - Dataset utama,PASS,0 duplikasi
+Duplikasi - Gap raw,PASS,0 duplikasi
+Duplikasi - Gap robust,PASS,0 duplikasi
+Konsistensi nama provinsi,PASS,Nama provinsi konsisten
+Konsistensi perhitungan gap robust,PASS,Hasil sesuai rumus gap/IQR

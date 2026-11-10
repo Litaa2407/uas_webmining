@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d0" for="node" attr.name="community" attr.type="long" />
+  <graph edgedefault="undirected">
+    <node id="ACEH">
+      <data key="d0">1</data>
+    </node>
+    <node id="BALI">
+      <data key="d0">2</data>
+    </node>
+    <node id="BANTEN">
+      <data key="d0">2</data>
+    </node>
+    <node id="BENGKULU">
+      <data key="d0">3</data>
+    </node>
+    <node id="DI YOGYAKARTA">
+      <data key="d0">2</data>
+    </node>
+    <node id="DKI JAKARTA">
+      <data key="d0">2</data>
+    </node>
+    <node id="GORONTALO">
+      <data key="d0">3</data>
+    </node>
+    <node id="JAMBI">
+      <data key="d0">3</data>
+    </node>
+    <node id="JAWA BARAT">
+      <data key="d0">2</data>
+    </node>
+    <node id="JAWA TENGAH">
+      <data key="d0">3</data>
+    </node>
+    <node id="JAWA TIMUR">
+      <data key="d0">2</data>
+    </node>
+    <node id="KALIMANTAN BARAT">
+      <data key="d0">3</data>
+    </node>
+    <node id="KALIMANTAN SELATAN">
+      <data key="d0">1</data>
+    </node>
+    <node id="KALIMANTAN TENGAH">
+      <data key="d0">3</data>
+    </node>
+    <node id="KALIMANTAN TIMUR">
+      <data key="d0">2</data>
+    </node>
+    <node id="KALIMANTAN UTARA">
+      <data key="d0">1</data>
+    </node>
+    <node id="KEPULAUAN BANGKA BELITUNG">
+      <data key="d0">3</data>
+    </node>
+    <node id="KEPULAUAN RIAU">
+      <data key="d0">2</data>
+    </node>
+    <node id="LAMPUNG">
+      <data key="d0">3</data>
+    </node>
+    <node id="MALUKU">
+      <data key="d0">1</data>
+    </node>
+    <node id="MALUKU UTARA">
+      <data key="d0">3</data>
+    </node>
+    <node id="NUSA TENGGARA BARAT">
+      <data key="d0">2</data>
+    </node>
+    <node id="NUSA TENGGARA TIMUR">
+      <data key="d0">3</data>
+    </node>
+    <node id="PAPUA">
+      <data key="d0">1</data>
+    </node>
+    <node id="PAPUA BARAT">
+      <data key="d0">1</data>
+    </node>
+    <node id="PAPUA BARAT DAYA">
+      <data key="d0">1</data>
+    </node>
+    <node id="PAPUA PEGUNUNGAN">
+      <data key="d0">1</data>
+    </node>
+    <node id="PAPUA SELATAN">
+      <data key="d0">1</data>
+    </node>
+    <node id="PAPUA TENGAH">
+      <data key="d0">1</data>
+    </node>
+    <node id="RIAU">
+      <data key="d0">2</data>
+    </node>
+    <node id="SULAWESI BARAT">
+      <data key="d0">1</data>
+    </node>
+    <node id="SULAWESI SELATAN">
+      <data key="d0">2</data>
+    </node>
+    <node id="SULAWESI TENGAH">
+      <data key="d0">3</data>
+    </node>
+    <node id="SULAWESI TENGGARA">
+      <data key="d0">3</data>
+    </node>
+    <node id="SULAWESI UTARA">
+      <data key="d0">3</data>
+    </node>
+    <node id="SUMATERA BARAT">
+      <data key="d0">2</data>
+    </node>
+    <node id="SUMATERA SELATAN">
+      <data key="d0">3</data>
+    </node>
+    <node id="SUMATERA UTARA">
+      <data key="d0">3</data>
+    </node>
+    <edge source="ACEH" target="KALIMANTAN UTARA">
+      <data key="d1">0.9250203862258702</data>
+    </edge>
+    <edge source="ACEH" target="MALUKU">
+      <data key="d1">0.90378934678058</data>
+    </edge>
+    <edge source="ACEH" target="PAPUA BARAT DAYA">
+      <data key="d1">0.9004419414995883</data>
+    </edge>
+    <edge source="ACEH" target="SULAWESI TENGGARA">
+      <data key="d1">0.8994349469721731</data>
+    </edge>
+    <edge source="ACEH" target="BENGKULU">
+      <data key="d1">0.8844144291923877</data>
+    </edge>
+    <edge source="ACEH" target="PAPUA">
+      <data key="d1">0.7892314218661616</data>
+    </edge>
+    <edge source="ACEH" target="PAPUA BARAT">
+      <data key="d1">0.8493885122948561</data>
+    </edge>
+    <edge source="ACEH" target="SUMATERA UTARA">
+      <data key="d1">0.7358199614325007</data>
+    </edge>
+    <edge source="BALI" target="DI YOGYAKARTA">
+      <data key="d1">0.7753988899809527</data>
+    </edge>
+    <edge source="BALI" target="KALIMANTAN TIMUR">
+      <data key="d1">0.7417266322487084</data>
+    </edge>
+    <edge source="BALI" target="KEPULAUAN RIAU">
+      <data key="d1">0.7028839382412659</data>
+    </edge>
+    <edge source="BALI" target="DKI JAKARTA">
+      <data key="d1">0.6865631530128748</data>
+    </edge>
+    <edge source="BALI" target="SUMATERA BARAT">
+      <data key="d1">0.6562875385818815</data>
+    </edge>
+    <edge source="BANTEN" target="JAWA BARAT">
+      <data key="d1">0.9884205289232244</data>
+    </edge>
+    <edge source="BANTEN" target="JAWA TIMUR">
+      <data key="d1">0.9523594535046422</data>
+    </edge>
+    <edge source="BANTEN" target="NUSA TENGGARA BARAT">
+      <data key="d1">0.8753901757564632</data>
+    </edge>
+    <edge source="BANTEN" target="DKI JAKARTA">
+      <data key="d1">0.8201379993273397</data>
+    </edge>
+    <edge source="BANTEN" target="DI YOGYAKARTA">
+      <data key="d1">0.7836631314285918</data>
+    </edge>
+    <edge source="BANTEN" target="RIAU">
+      <data key="d1">0.2365213685498785</data>
+    </edge>
+    <edge source="BENGKULU" target="SULAWESI TENGGARA">
+      <data key="d1">0.9777472178170356</data>
+    </edge>
+    <edge source="BENGKULU" target="NUSA TENGGARA TIMUR">
+      <data key="d1">0.931382777458336</data>
+    </edge>
+    <edge source="BENGKULU" target="SULAWESI TENGAH">
+      <data key="d1">0.915666012120102</data>
+    </edge>
+    <edge source="BENGKULU" target="KALIMANTAN TENGAH">
+      <data key="d1">0.9132504637360176</data>
+    </edge>
+    <edge source="BENGKULU" target="KALIMANTAN SELATAN">
+      <data key="d1">0.8851879276012009</data>
+    </edge>
+    <edge source="BENGKULU" target="JAWA TENGAH">
+      <data key="d1">0.7722823892467297</data>
+    </edge>
+    <edge source="BENGKULU" target="SUMATERA UTARA">
+      <data key="d1">0.7420005045036565</data>
+    </edge>
+    <edge source="DI YOGYAKARTA" target="DKI JAKARTA">
+      <data key="d1">0.9734367288231</data>
+    </edge>
+    <edge source="DI YOGYAKARTA" target="SUMATERA BARAT">
+      <data key="d1">0.911499187643371</data>
+    </edge>
+    <edge source="DI YOGYAKARTA" target="KEPULAUAN RIAU">
+      <data key="d1">0.898736189887059</data>
+    </edge>
+    <edge source="DI YOGYAKARTA" target="JAWA BARAT">
+      <data key="d1">0.8149844000410298</data>
+    </edge>
+    <edge source="DI YOGYAKARTA" target="JAWA TIMUR">
+      <data key="d1">0.81374264272293</data>
+    </edge>
+    <edge source="DI YOGYAKARTA" target="KALIMANTAN TIMUR">
+      <data key="d1">0.5114379684448719</data>
+    </edge>
+    <edge source="DKI JAKARTA" target="KEPULAUAN RIAU">
+      <data key="d1">0.9140919341333472</data>
+    </edge>
+    <edge source="DKI JAKARTA" target="SUMATERA BARAT">
+      <data key="d1">0.8835019404487158</data>
+    </edge>
+    <edge source="DKI JAKARTA" target="JAWA BARAT">
+      <data key="d1">0.8378787677071592</data>
+    </edge>
+    <edge source="DKI JAKARTA" target="JAWA TIMUR">
+      <data key="d1">0.8260882709270998</data>
+    </edge>
+    <edge source="DKI JAKARTA" target="KALIMANTAN TIMUR">
+      <data key="d1">0.3565051585160395</data>
+    </edge>
+    <edge source="DKI JAKARTA" target="NUSA TENGGARA BARAT">
+      <data key="d1">0.5715040290161245</data>
+    </edge>
+    <edge source="GORONTALO" target="KALIMANTAN BARAT">
+      <data key="d1">0.9404862596315204</data>
+    </edge>
+    <edge source="GORONTALO" target="SULAWESI TENGAH">
+      <data key="d1">0.9353132448915408</data>
+    </edge>
+    <edge source="GORONTALO" target="NUSA TENGGARA TIMUR">
+      <data key="d1">0.926102422465623</data>
+    </edge>
+    <edge source="GORONTALO" target="KALIMANTAN TENGAH">
+      <data key="d1">0.8957132258009616</data>
+    </edge>
+    <edge source="GORONTALO" target="KALIMANTAN SELATAN">
+      <data key="d1">0.891919346675832</data>
+    </edge>
+    <edge source="JAMBI" target="KALIMANTAN TENGAH">
+      <data key="d1">0.9484755710586066</data>
+    </edge>
+    <edge source="JAMBI" target="MALUKU UTARA">
+      <data key="d1">0.9026967807307154</data>
+    </edge>
+    <edge source="JAMBI" target="NUSA TENGGARA TIMUR">
+      <data key="d1">0.899276598161681</data>
+    </edge>
+    <edge source="JAMBI" target="KALIMANTAN BARAT">
+      <data key="d1">0.8910310511160356</data>
+    </edge>
+    <edge source="JAMBI" target="SULAWESI TENGAH">
+      <data key="d1">0.8824370823467924</data>
+    </edge>
+    <edge source="JAMBI" target="KEPULAUAN BANGKA BELITUNG">
+      <data key="d1">0.696774845305626</data>
+    </edge>
+    <edge source="JAMBI" target="LAMPUNG">
+      <data key="d1">0.7681781891706083</data>
+    </edge>
+    <edge source="JAMBI" target="SUMATERA SELATAN">
+      <data key="d1">0.8545125971507586</data>
+    </edge>
+    <edge source="JAWA BARAT" target="JAWA TIMUR">
+      <data key="d1">0.9528807055032626</data>
+    </edge>
+    <edge source="JAWA BARAT" target="NUSA TENGGARA BARAT">
+      <data key="d1">0.8101632130812588</data>
+    </edge>
+    <edge source="JAWA TENGAH" target="KALIMANTAN TENGAH">
+      <data key="d1">0.7435586543526107</data>
+    </edge>
+    <edge source="JAWA TENGAH" target="SULAWESI UTARA">
+      <data key="d1">0.7388111761368381</data>
+    </edge>
+    <edge source="JAWA TENGAH" target="NUSA TENGGARA TIMUR">
+      <data key="d1">0.714241420990963</data>
+    </edge>
+    <edge source="JAWA TENGAH" target="SULAWESI TENGAH">
+      <data key="d1">0.7054697428665474</data>
+    </edge>
+    <edge source="JAWA TIMUR" target="NUSA TENGGARA BARAT">
+      <data key="d1">0.858179547521847</data>
+    </edge>
+    <edge source="JAWA TIMUR" target="KEPULAUAN RIAU">
+      <data key="d1">0.6615898068705872</data>
+    </edge>
+    <edge source="JAWA TIMUR" target="SUMATERA BARAT">
+      <data key="d1">0.636271064913131</data>
+    </edge>
+    <edge source="KALIMANTAN BARAT" target="SULAWESI TENGAH">
+      <data key="d1">0.9460745911332132</data>
+    </edge>
+    <edge source="KALIMANTAN BARAT" target="KALIMANTAN TENGAH">
+      <data key="d1">0.9349888939130244</data>
+    </edge>
+    <edge source="KALIMANTAN BARAT" target="NUSA TENGGARA TIMUR">
+      <data key="d1">0.9035246026704444</data>
+    </edge>
+    <edge source="KALIMANTAN BARAT" target="KALIMANTAN SELATAN">
+      <data key="d1">0.8895228711085071</data>
+    </edge>
+    <edge source="KALIMANTAN BARAT" target="KEPULAUAN BANGKA BELITUNG">
+      <data key="d1">0.7526457376656197</data>
+    </edge>
+    <edge source="KALIMANTAN BARAT" target="SUMATERA SELATAN">
+      <data key="d1">0.8516373148561522</data>
+    </edge>
+    <edge source="KALIMANTAN SELATAN" target="KALIMANTAN UTARA">
+      <data key="d1">0.926902209678604</data>
+    </edge>
+    <edge source="KALIMANTAN SELATAN" target="PAPUA BARAT">
+      <data key="d1">0.8993997770243809</data>
+    </edge>
+    <edge source="KALIMANTAN SELATAN" target="MALUKU">
+      <data key="d1">0.7329906413591327</data>
+    </edge>
+    <edge source="KALIMANTAN SELATAN" target="PAPUA BARAT DAYA">
+      <data key="d1">0.8416762942023865</data>
+    </edge>
+    <edge source="KALIMANTAN SELATAN" target="SULAWESI UTARA">
+      <data key="d1">0.8004259098351636</data>
+    </edge>
+    <edge source="KALIMANTAN SELATAN" target="SUMATERA SELATAN">
+      <data key="d1">0.854741051825078</data>
+    </edge>
+    <edge source="KALIMANTAN TENGAH" target="SULAWESI TENGAH">
+      <data key="d1">0.9569231935712156</data>
+    </edge>
+    <edge source="KALIMANTAN TENGAH" target="NUSA TENGGARA TIMUR">
+      <data key="d1">0.953097866068259</data>
+    </edge>
+    <edge source="KALIMANTAN TENGAH" target="KEPULAUAN BANGKA BELITUNG">
+      <data key="d1">0.6920978977760388</data>
+    </edge>
+    <edge source="KALIMANTAN TENGAH" target="LAMPUNG">
+      <data key="d1">0.6517870892879168</data>
+    </edge>
+    <edge source="KALIMANTAN TENGAH" target="MALUKU UTARA">
+      <data key="d1">0.8533715676256348</data>
+    </edge>
+    <edge source="KALIMANTAN TENGAH" target="SULAWESI TENGGARA">
+      <data key="d1">0.9121922499176895</data>
+    </edge>
+    <edge source="KALIMANTAN TENGAH" target="SULAWESI UTARA">
+      <data key="d1">0.7354743271406698</data>
+    </edge>
+    <edge source="KALIMANTAN TENGAH" target="SUMATERA SELATAN">
+      <data key="d1">0.842265668102764</data>
+    </edge>
+    <edge source="KALIMANTAN TIMUR" target="SUMATERA BARAT">
+      <data key="d1">0.5693295972817933</data>
+    </edge>
+    <edge source="KALIMANTAN TIMUR" target="KEPULAUAN RIAU">
+      <data key="d1">0.5367769990654416</data>
+    </edge>
+    <edge source="KALIMANTAN UTARA" target="PAPUA BARAT DAYA">
+      <data key="d1">0.8936267254917047</data>
+    </edge>
+    <edge source="KALIMANTAN UTARA" target="PAPUA BARAT">
+      <data key="d1">0.8878916160463742</data>
+    </edge>
+    <edge source="KALIMANTAN UTARA" target="SULAWESI TENGGARA">
+      <data key="d1">0.863644215884524</data>
+    </edge>
+    <edge source="KALIMANTAN UTARA" target="MALUKU">
+      <data key="d1">0.8211604093473289</data>
+    </edge>
+    <edge source="KALIMANTAN UTARA" target="PAPUA">
+      <data key="d1">0.7917203323571949</data>
+    </edge>
+    <edge source="KEPULAUAN BANGKA BELITUNG" target="SUMATERA SELATAN">
+      <data key="d1">0.7633878838677614</data>
+    </edge>
+    <edge source="KEPULAUAN BANGKA BELITUNG" target="SULAWESI TENGAH">
+      <data key="d1">0.6816750157830701</data>
+    </edge>
+    <edge source="KEPULAUAN BANGKA BELITUNG" target="LAMPUNG">
+      <data key="d1">0.6129982369321861</data>
+    </edge>
+    <edge source="KEPULAUAN BANGKA BELITUNG" target="SULAWESI BARAT">
+      <data key="d1">0.464773533095942</data>
+    </edge>
+    <edge source="KEPULAUAN RIAU" target="SUMATERA BARAT">
+      <data key="d1">0.9513334333845098</data>
+    </edge>
+    <edge source="KEPULAUAN RIAU" target="SULAWESI SELATAN">
+      <data key="d1">0.4160110612108919</data>
+    </edge>
+    <edge source="LAMPUNG" target="MALUKU UTARA">
+      <data key="d1">0.7838971603822409</data>
+    </edge>
+    <edge source="LAMPUNG" target="NUSA TENGGARA TIMUR">
+      <data key="d1">0.5887536459070106</data>
+    </edge>
+    <edge source="LAMPUNG" target="RIAU">
+      <data key="d1">0.1984405085996844</data>
+    </edge>
+    <edge source="LAMPUNG" target="SULAWESI BARAT">
+      <data key="d1">0.5709669368891592</data>
+    </edge>
+    <edge source="MALUKU" target="SULAWESI TENGGARA">
+      <data key="d1">0.7857486663129022</data>
+    </edge>
+    <edge source="MALUKU" target="SUMATERA SELATAN">
+      <data key="d1">0.7584431094948667</data>
+    </edge>
+    <edge source="MALUKU" target="SULAWESI SELATAN">
+      <data key="d1">0.3304917191440912</data>
+    </edge>
+    <edge source="MALUKU" target="SUMATERA UTARA">
+      <data key="d1">0.6798720647066165</data>
+    </edge>
+    <edge source="MALUKU UTARA" target="NUSA TENGGARA TIMUR">
+      <data key="d1">0.8805682802355317</data>
+    </edge>
+    <edge source="MALUKU UTARA" target="SULAWESI TENGAH">
+      <data key="d1">0.8191707444186163</data>
+    </edge>
+    <edge source="MALUKU UTARA" target="SULAWESI TENGGARA">
+      <data key="d1">0.8138929933016434</data>
+    </edge>
+    <edge source="NUSA TENGGARA BARAT" target="RIAU">
+      <data key="d1">0.5948955038603462</data>
+    </edge>
+    <edge source="NUSA TENGGARA TIMUR" target="SULAWESI TENGAH">
+      <data key="d1">0.962037812478994</data>
+    </edge>
+    <edge source="NUSA TENGGARA TIMUR" target="SULAWESI TENGGARA">
+      <data key="d1">0.939650986315586</data>
+    </edge>
+    <edge source="PAPUA" target="PAPUA BARAT DAYA">
+      <data key="d1">0.945142549857008</data>
+    </edge>
+    <edge source="PAPUA" target="PAPUA BARAT">
+      <data key="d1">0.9409490858605082</data>
+    </edge>
+    <edge source="PAPUA" target="PAPUA SELATAN">
+      <data key="d1">0.7535500009113743</data>
+    </edge>
+    <edge source="PAPUA" target="PAPUA PEGUNUNGAN">
+      <data key="d1">0.5304444393169714</data>
+    </edge>
+    <edge source="PAPUA" target="PAPUA TENGAH">
+      <data key="d1">0.4680290976027893</data>
+    </edge>
+    <edge source="PAPUA BARAT" target="PAPUA BARAT DAYA">
+      <data key="d1">0.9423415947998782</data>
+    </edge>
+    <edge source="PAPUA BARAT" target="PAPUA PEGUNUNGAN">
+      <data key="d1">0.536646315923222</data>
+    </edge>
+    <edge source="PAPUA BARAT" target="PAPUA SELATAN">
+      <data key="d1">0.77755919203576</data>
+    </edge>
+    <edge source="PAPUA BARAT" target="PAPUA TENGAH">
+      <data key="d1">0.4230682069900316</data>
+    </edge>
+    <edge source="PAPUA BARAT" target="SULAWESI UTARA">
+      <data key="d1">0.7639276059522253</data>
+    </edge>
+    <edge source="PAPUA BARAT DAYA" target="SULAWESI SELATAN">
+      <data key="d1">0.2711261031027971</data>
+    </edge>
+    <edge source="PAPUA PEGUNUNGAN" target="PAPUA TENGAH">
+      <data key="d1">0.975759796544368</data>
+    </edge>
+    <edge source="PAPUA PEGUNUNGAN" target="PAPUA SELATAN">
+      <data key="d1">0.9367314274156816</data>
+    </edge>
+    <edge source="PAPUA PEGUNUNGAN" target="SULAWESI BARAT">
+      <data key="d1">0.5461590280639892</data>
+    </edge>
+    <edge source="PAPUA SELATAN" target="PAPUA TENGAH">
+      <data key="d1">0.8717329474767965</data>
+    </edge>
+    <edge source="PAPUA SELATAN" target="SULAWESI TENGAH">
+      <data key="d1">0.6707608069160116</data>
+    </edge>
+    <edge source="PAPUA SELATAN" target="SULAWESI BARAT">
+      <data key="d1">0.339569825830322</data>
+    </edge>
+    <edge source="PAPUA TENGAH" target="SULAWESI BARAT">
+      <data key="d1">0.5046897851992633</data>
+    </edge>
+    <edge source="RIAU" target="SULAWESI SELATAN">
+      <data key="d1">0.4251754247227266</data>
+    </edge>
+    <edge source="RIAU" target="SUMATERA BARAT">
+      <data key="d1">0.2458988029455721</data>
+    </edge>
+    <edge source="SULAWESI SELATAN" target="SUMATERA BARAT">
+      <data key="d1">0.5761183938985189</data>
+    </edge>
+    <edge source="SULAWESI TENGAH" target="SULAWESI TENGGARA">
+      <data key="d1">0.9264233854717602</data>
+    </edge>
+    <edge source="SULAWESI TENGAH" target="SUMATERA SELATAN">
+      <data key="d1">0.8008255511447877</data>
+    </edge>
+    <edge source="SULAWESI TENGGARA" target="SUMATERA UTARA">
+      <data key="d1">0.6721801481213832</data>
+    </edge>
+    <edge source="SULAWESI UTARA" target="SUMATERA SELATAN">
+      <data key="d1">0.738696433278621</data>
+    </edge>
+    <edge source="SULAWESI UTARA" target="SUMATERA UTARA">
+      <data key="d1">0.6488538421727386</data>
+    </edge>
+  </graph>
+</graphml>
