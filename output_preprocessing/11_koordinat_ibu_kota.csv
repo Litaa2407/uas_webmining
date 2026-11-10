@@ -1,0 +1,39 @@
+Provinsi,Ibu_Kota,Baris_Berkas,Latitude,Longitude,Papua
+ACEH,Banda Aceh,Kota Banda Aceh,5.55,95.3166667,False
+BALI,Denpasar,Kota Denpasar,-8.65629,115.222099,False
+BANTEN,Serang,Kota Serang,-6.12009,106.150299,False
+BENGKULU,Bengkulu,Kota Bengkulu,-3.7955556,102.2591667,False
+DI YOGYAKARTA,Yogyakarta,Kota Yogyakarta,-7.797224,110.368797,False
+DKI JAKARTA,Jakarta,Kota Jakarta Pusat,-6.211544,106.845172,False
+GORONTALO,Gorontalo,Kota Gorontalo,0.5333333,123.0666667,False
+JAMBI,Jambi,Kota Jambi,-1.596672,103.615799,False
+JAWA BARAT,Bandung,Kota Bandung,-6.9147444,107.6098111,False
+JAWA TENGAH,Semarang,Kota Semarang,-6.9666667,110.4166667,False
+JAWA TIMUR,Surabaya,Kota Surabaya,-7.289166,112.734398,False
+KALIMANTAN BARAT,Pontianak,Kota Pontianak,-0.022523,109.330307,False
+KALIMANTAN SELATAN,Banjarmasin,Kota Banjarmasin,-3.328499,114.589203,False
+KALIMANTAN TENGAH,Palangka Raya,Kota Palangka Raya,-2.21,113.92,False
+KALIMANTAN TIMUR,Samarinda,Kota Samarinda,-0.502183,117.153801,False
+KALIMANTAN UTARA,Tanjung Selor,Kabupaten Bulungan,2.9042476,116.9852422,False
+KEPULAUAN BANGKA BELITUNG,Pangkalpinang,Kota Pangkal Pinang,-2.129323,106.109596,False
+KEPULAUAN RIAU,Tanjungpinang,Kota Tanjung Pinang,0.9179205,104.446464,False
+LAMPUNG,Bandar Lampung,Kota Bandar Lampung,-5.45,105.2666667,False
+MALUKU,Ambon,Kota Ambon,-3.65607,128.166419,False
+MALUKU UTARA,Sofifi,Kota Tidore Kepulauan,0.6833333,127.4,False
+NUSA TENGGARA BARAT,Mataram,Kota Mataram,-8.5833333,116.1166667,False
+NUSA TENGGARA TIMUR,Kupang,Kota Kupang,-10.1833333,123.5833333,False
+PAPUA,Jayapura,Kota Jayapura,-2.533,140.717,True
+PAPUA BARAT,Manokwari,Kabupaten Manokwari,-0.8614531,134.0620421,True
+PAPUA BARAT DAYA,Sorong,Kota Sorong,-0.8666667,131.25,True
+PAPUA PEGUNUNGAN,Wamena,Kabupaten Jayawijaya,-4.0004481,138.7995122,True
+PAPUA SELATAN,Merauke,Kabupaten Merauke,-8.4960406,140.3945527,True
+PAPUA TENGAH,Nabire,Kabupaten Nabire,-3.5095462,135.7520985,True
+RIAU,Pekanbaru,Kota Pekanbaru,0.5333333,101.45,False
+SULAWESI BARAT,Mamuju,Kabupaten Mamuju,-2.7293364,118.9295737,False
+SULAWESI SELATAN,Makassar,Kota Makassar,-5.1333333,119.4166667,False
+SULAWESI TENGAH,Palu,Kota Palu,-0.898583,119.850601,False
+SULAWESI TENGGARA,Kendari,Kota Kendari,-3.972201,122.5149028,False
+SULAWESI UTARA,Manado,Kota Manado,1.4917014,124.842843,False
+SUMATERA BARAT,Padang,Kota Padang,-0.95,100.3530556,False
+SUMATERA SELATAN,Palembang,Kota Palembang,-2.9911083,104.7567333,False
+SUMATERA UTARA,Medan,Kota Medan,3.585242,98.6755979,False

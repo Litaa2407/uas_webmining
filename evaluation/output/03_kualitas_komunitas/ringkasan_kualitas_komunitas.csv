@@ -1,0 +1,8 @@
+Metrik,Nilai,Kriteria,Status
+Jumlah komunitas,4,-,-
+Modularity,0.5163,"> 0,3",LOLOS
+Silhouette (jarak = 1 - sim),0.4519,> 0,LOLOS
+Provinsi dengan silhouette negatif,0,-,-
+ARI rata-rata antar 100 seed,0.8176,mendekati 1 = stabil,-
+ARI rata-rata seed vs partisi terpilih,0.8421,-,-
+Distribusi jumlah komunitas antar seed,3 komunitas: 46 run; 4 komunitas: 54 run,-,-

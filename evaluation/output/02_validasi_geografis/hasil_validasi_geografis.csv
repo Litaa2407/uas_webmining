@@ -1,0 +1,7 @@
+Skenario,Uji,Nilai,Pembanding,p_value
+38 provinsi,"Mantel Spearman(kemiripan, jarak)",-0.0605,0 (tidak ada hubungan),0.2044
+38 provinsi,Irisan top-5 kembar & top-5 terdekat,0.2526,0.1351 (harapan acak),0.0002
+38 provinsi,Median jarak ke 5 kembar (km),1103.605,1510.0 km (median semua pasangan),0.0006
+Tanpa 6 provinsi Papua,"Mantel Spearman(kemiripan, jarak)",-0.048,0 (tidak ada hubungan),0.2858
+Tanpa 6 provinsi Papua,Irisan top-5 kembar & top-5 terdekat,0.25,0.1613 (harapan acak),0.0074
+Tanpa 6 provinsi Papua,Median jarak ke 5 kembar (km),1030.3705,1241.6 km (median semua pasangan),0.039

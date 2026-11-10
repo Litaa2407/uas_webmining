@@ -1,0 +1,3 @@
+Pembanding,Spearman_r,Kekuatan,p_Mantel_dua_arah,p_Mantel_satu_arah_negatif,N_pasangan,N_permutasi,Kriteria,Status
+Selisih IPM,-0.2563,lemah,0.0014,0.0014,703,9999,"r negatif & p < 0,05",LOLOS
+Selisih % penduduk miskin (Sep),-0.0042,sangat lemah,0.9446,0.4076,703,9999,"r negatif & p < 0,05",TIDAK LOLOS

@@ -1,0 +1,10 @@
+Fitur_Dihapus,Jaccard_Top5_Rata2,Jaccard_Top5_Min,Provinsi_Paling_Berubah,Bobot_Terbesar_Sisa,Status
+Rata-rata lama sekolah,0.906,0.4286,SUMATERA UTARA,Rasio fasilitas PT/SD (0.434),LOLOS
+APS 7-12,0.7541,0.25,PAPUA PEGUNUNGAN,Rasio fasilitas PT/SD (0.434),LOLOS
+APS 13-15,0.8559,0.4286,KALIMANTAN SELATAN,Rasio fasilitas PT/SD (0.434),LOLOS
+APS 16-18,0.8997,0.4286,GORONTALO,Rasio fasilitas PT/SD (0.436),LOLOS
+APS 19-23,0.8449,0.25,SULAWESI UTARA,Rasio fasilitas PT/SD (0.447),LOLOS
+Rasio fasilitas SMP/SD,0.8822,0.4286,RIAU,Rasio fasilitas PT/SD (0.451),LOLOS
+Rasio fasilitas SMU/SD,0.8438,0.1111,RIAU,Rasio fasilitas PT/SD (0.480),LOLOS
+Rasio fasilitas SMK/SD,0.6831,0.1111,SULAWESI SELATAN,Rasio fasilitas PT/SD (0.554),LOLOS
+Rasio fasilitas PT/SD,0.5251,0.0,SULAWESI SELATAN,Rasio fasilitas SMK/SD (0.410),"DI BAWAH 0,6"

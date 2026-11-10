@@ -1,0 +1,6 @@
+Metode,Spearman_vs_Selisih_IPM,p_Mantel_999,Jaccard_Top5_vs_Utama,Jumlah_Kelompok,Ukuran_Kelompok,Modularity_Louvain,ARI_vs_Louvain_Utama
+Weighted cosine (gap + entropi) [utama],-0.2563,0.001,1.0,4,"[12, 11, 11, 4]",0.5163,1.0
+"Cosine biasa (gap, tanpa bobot)",-0.2187,0.001,0.5787,4,"[14, 11, 7, 6]",0.5572,0.5848
+Jarak Euclidean berbobot (gap + entropi),-0.6016,0.001,0.4764,4,"[12, 10, 8, 8]",0.4965,0.5162
+K-Means k=2 (silhouette terbaik 0.854),,,,2,"[37, 1]",,-0.0056
+K-Means k=4 (sama dengan Louvain),,,,4,"[29, 6, 2, 1]",,0.144

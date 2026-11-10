@@ -1,0 +1,14 @@
+Aspek,Kriteria,Nilai,p_value,Status
+Validitas,"Spearman(kemiripan, selisih IPM) negatif & p < 0,05",-0.2563,0.0014,LOLOS
+Validitas,"Spearman(kemiripan, selisih kemiskinan) negatif & p < 0,05",-0.0042,0.9446,TIDAK LOLOS
+Kualitas kelompok,"Modularity Louvain > 0,3",0.5163,,LOLOS
+Kualitas kelompok,Silhouette > 0,0.4519,,LOLOS
+Stabilitas,"Rata-rata Jaccard top-5 leave-one-feature-out > 0,6",0.7994,,LOLOS
+Stabilitas,Skenario terburuk: tanpa Rasio fasilitas PT/SD,0.5251,,"DI BAWAH 0,6"
+Kepekaan bobot,Jaccard top-5 bobot sama rata vs entropi,0.5787,,Dilaporkan
+Kemasukakalan,Sim rata-rata Jawa/kota besar > sim ke Papua Pegunungan/Tengah,0.3934,,LOLOS
+Validasi geografis,"Mantel Spearman(kemiripan, jarak)",-0.0605,0.2044,Dilaporkan apa adanya
+Validasi geografis,"Irisan top-5 kembar & top-5 terdekat (acak 13,5%)",0.2526,0.0002,Dilaporkan apa adanya
+Validasi geografis,Median jarak ke 5 kembar (km),1103.605,0.0006,Dilaporkan apa adanya
+Validasi geografis (tanpa Papua),Mantel tanpa 6 provinsi Papua,-0.048,0.2858,Dilaporkan apa adanya
+Validasi geografis (tanpa Papua),Irisan tanpa Papua,0.25,0.0074,Dilaporkan apa adanya

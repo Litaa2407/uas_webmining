@@ -1,4 +1,3 @@
-
 import pandas as pd
 import networkx as nx
 
@@ -42,6 +41,12 @@ FILE_GRAPH = (
 
 # Seed agar hasil dapat direproduksi
 RANDOM_SEED = 42
+
+# Louvain bersifat stokastik (urutan node diacak), sehingga satu seed
+# bisa berhenti di optimum lokal. Algoritma dijalankan N_RUNS kali
+# (seed RANDOM_SEED ... RANDOM_SEED + N_RUNS - 1) dan partisi dengan
+# modularity TERTINGGI yang dipakai. Set N_RUNS = 1 untuk perilaku lama.
+N_RUNS = 100
 
 # Nama atribut bobot pada edge graf
 WEIGHT_ATTRIBUTE = "weight"
@@ -136,16 +141,51 @@ def detect_communities(G):
     print("=" * 60)
 
     print("\nParameter:")
-    print("Random seed:", RANDOM_SEED)
+    print("Random seed awal:", RANDOM_SEED)
+    print("Jumlah run (seed berbeda):", N_RUNS)
     print("Bobot edge:", WEIGHT_ATTRIBUTE)
 
-    # Menjalankan algoritma Louvain
-    communities = louvain_communities(
-        G,
-        weight=WEIGHT_ATTRIBUTE,
-        resolution=1,
-        seed=RANDOM_SEED
+    # Menjalankan algoritma Louvain dengan beberapa seed
+    runs = []
+    best_communities, best_q, best_seed = None, -1.0, None
+
+    for seed in range(RANDOM_SEED, RANDOM_SEED + N_RUNS):
+
+        candidate = louvain_communities(
+            G,
+            weight=WEIGHT_ATTRIBUTE,
+            resolution=1,
+            seed=seed
+        )
+
+        q = modularity(G, candidate, weight=WEIGHT_ATTRIBUTE)
+
+        runs.append({
+            "Seed": seed,
+            "Jumlah_Komunitas": len(candidate),
+            "Modularity": q
+        })
+
+        # Lebih besar secara nyata (bukan selisih pembulatan) -> ganti
+        if q > best_q + 1e-12:
+            best_communities, best_q, best_seed = candidate, q, seed
+
+    runs_df = pd.DataFrame(runs)
+    runs_df.to_csv(LOUVAIN_DIR / "louvain_seed_runs.csv", index=False)
+
+    print("\nRingkasan hasil seluruh run:")
+    print(
+        runs_df.round({"Modularity": 4})
+        .groupby(["Jumlah_Komunitas", "Modularity"])
+        .size()
+        .rename("Jumlah_Run")
+        .reset_index()
+        .sort_values("Modularity", ascending=False)
+        .to_string(index=False)
     )
+    print(f"\nDipakai seed {best_seed} (modularity tertinggi = {best_q:.4f})")
+
+    communities = best_communities
 
     # Mengurutkan komunitas berdasarkan
     # nama node terkecil agar label konsisten
