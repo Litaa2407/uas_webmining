@@ -1,0 +1,4 @@
+Skema_Bobot,Jaccard_Top5_vs_Utama,Spearman_Kemiripan_vs_Utama,ARI_Komunitas_vs_Utama,Jumlah_Komunitas,Modularity,Bobot_Terbesar,Porsi_3_Rasio_Fasilitas_Atas
+Entropi (sebelum dikoreksi) [utama],1.0,1.0,1.0,4,0.5163,Rasio fasilitas PT/SD (0.423),0.778
+Entropi terkoreksi redundansi,0.9323,0.9995,0.7133,3,0.5331,Rasio fasilitas PT/SD (0.456),0.79
+Sama rata,0.5787,0.8956,0.5848,4,0.5572,Rata-rata lama sekolah (0.111),0.333
